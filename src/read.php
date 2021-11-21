@@ -10,7 +10,7 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
             if(mysqli_num_rows($result) == 1){
                 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
                                 $name = $row["name"];
-                $address = $row["autor"];
+                $autor = $row["autor"];
             }   
         } 
     }
